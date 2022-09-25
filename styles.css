@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+
+body {
+    background-image: url(./assets/bg-head.jpg);
+    background-position: center top;
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+    background-color: #a18b4e;
+}
+.perfil img {
+    height: 300px;
+}
+body * {
+    font-family: 'poppins', sans-serif;
+    line-height: 160%;
+}
+header {
+    padding-top: 32px;
+    margin-top: 32px;
+    text-align: center;
+}
+header img {
+width: 250px;
+border-radius: 50%;
+margin: auto;
+display: flex;
+transition: transform .3s;
+}
+ header img:hover {
+    transform: scale(1.1)
+ }    
+main {
+    max-width: 650px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap: 24px;
+
+}
+section {
+    color: black
+}
+section div {
+    background-color: rgb(180, 180, 152) ;
+    padding: 32px;
+    padding-top: 16px;
+    border-radius: 8px;
+    border-top: 6px solid rgb(42, 12, 70);
+
+}
+
+section h2 {
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: -0.5px;
+}
+section p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.18px;
+    color: rgb(42, 12, 70);
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;   
+    margin-top: 24px;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
+}
+.books img {
+border-radius: 8px;
+height: 150px;
+
+}
+.Channels img {
+    border-radius: 8px;
+    height: 150px;
+    
+    }
+.social-media img {
+    border-radius: 8px;
+    height: 60px;
+}
