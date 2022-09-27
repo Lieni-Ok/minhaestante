@@ -81,7 +81,8 @@ section ul li:hover {
 
 .perfil img {
     height: 230px;
-    length: 200px;
+    width: 230px;
+    border-radius: 50%;
     }
 
 .books img {
