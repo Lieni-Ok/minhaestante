@@ -78,6 +78,12 @@ section ul {
 section ul li:hover {
     transform: scale(1.1);
 }
+
+.perfil img {
+    height: 230px;
+    length: 200px;
+    }
+
 .books img {
 border-radius: 8px;
 height: 120px;
